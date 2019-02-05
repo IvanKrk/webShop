@@ -1,0 +1,31 @@
+let divBox = document.createElement('div');
+    let divBoxHeader = document.createElement('div');
+    let h3Head = document.createElement('h3');
+    let formUser = document.createElement('form');
+    let divBoxBody = document.createElement('div');
+    let divFormGroupUN = document.createElement('div');
+    let divFormGroupUP = document.createElement('div');
+    let divFormGroupTS = document.createElement('div');
+
+    let section = document.getElementById('contentArea');
+
+    divBox.setAttribute('class', 'box box-info');
+
+    divBoxHeader.setAttribute('class', 'box-header with-border');
+
+    h3Head.setAttribute('class', 'box-title');
+    h3Head.innerHTML = 'Create New User';
+
+    formUser.setAttribute('class', 'form-horizontal');
+
+    divBoxBody.setAttribute('class', 'box-body');
+
+    divFormGroupUN.setAttribute('class', 'form-group');
+
+    divFormGroupUP.setAttribute('class', 'form-group');
+
+    divFormGroupTS.setAttribute('class', 'form-group');
+
+    divBoxHeader.appendChild(h3Head);
+    divBox.appendChild(divBoxHeader);
+    section.appendChild(divBox);
